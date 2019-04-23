@@ -1,0 +1,49 @@
+.popular-posts ul {
+  list-style: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.popular-posts li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.popular-posts a {
+  display: inline !important;
+  text-decoration: none;
+  color: black;
+}
+
+.popular-posts a:hover {
+  text-decoration: none;
+  color: royalblue;
+}
+
+.popular-posts .wpp-post-title {
+  background: none !important;
+  clear: none;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.popular-posts .wpp-thumbnail {
+  margin: 2px 10px 2px 0;
+}
+
+.popular-posts {
+  border: 1px solid #eee;
+  padding: 0 1rem 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.popular-posts h1 {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee;
+}

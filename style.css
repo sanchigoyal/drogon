@@ -1,0 +1,422 @@
+/*
+Theme Name: Drogon
+Theme URI: 
+Author: CodePrimers
+Author URI: https://www.codeprimers.com
+Description: 
+Version: 1.0
+Text Domain: drogon
+*/
+
+body {
+  font-family: "Lato", Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/*
+ ******** Header custom style *********
+ */
+header .navbar {
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-brand strong {
+  color: royalblue;
+}
+
+.nav-item.current-menu-item .nav-link {
+  color: black !important;
+}
+
+.nav-item {
+  margin-right: 0.75rem;
+}
+
+.nav-item a:hover {
+  color: royalblue !important;
+}
+
+/*
+ ********  Footer custom style *********
+ */
+footer {
+  padding: 0.5rem 0 0.5rem 0;
+  color: white;
+}
+
+footer .site-info {
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+footer .site-info p {
+  margin: 0;
+}
+
+footer .social-media-menu {
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+footer .social-media-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .social-media-menu ul li {
+  display: inline;
+}
+
+footer .social-media-menu ul li a {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  display: inline;
+  padding: 0;
+}
+
+footer .social-media-menu .fab:hover {
+  transform: scale(1.5);
+}
+
+.footer-bottom {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/**
+******** Card grid styles *********
+*/
+.card-title a {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.2s;
+}
+.card-title a:visited {
+  color: black;
+}
+.card-title a:hover {
+  color: royalblue;
+}
+.card-body {
+  background-color: #fcfcfc;
+}
+.card-body p {
+  margin-bottom: 0;
+}
+.card-footer a {
+  text-decoration: none !important;
+  color: #6c757d;
+  transition: 0.2s;
+}
+.card-footer a:hover {
+  color: royalblue;
+}
+.pagination {
+  justify-content: center !important;
+}
+.pagination span,
+.pagination .dots,
+.pagination a {
+  background: #f9f9f9;
+  padding: 2px 8px;
+  margin: 0 4px;
+  font-size: 18px;
+  font-weight: normal;
+  color: royalblue;
+  text-decoration: none;
+}
+.pagination .current {
+  color: #474e5c;
+}
+
+/**
+************** Entry header, applies to archive - category, tags ******
+*/
+.entry-header {
+  padding-top: 2rem;
+  text-align: center;
+}
+.entry-content.text-center form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+************** Search Form Styles ***********************************
+*/
+.search-form input[type="search"] {
+  border-color: #6c757d !important;
+}
+.search-form input[type="search"]:focus {
+  outline: none;
+  box-shadow: none !important;
+  border-color: #6c757d !important;
+}
+.search-form button[type="submit"]:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+.search-form button[type="submit"]:hover {
+  color: royalblue;
+  background-color: whitesmoke;
+}
+
+/******** Breadcrumb Styles **********/
+.breadcrumb {
+  background-color: white;
+  padding-left: 0;
+  font-size: 18px;
+}
+.breadcrumb a {
+  color: black !important;
+}
+.breadcrumb a:hover {
+  text-decoration: none;
+  color: royalblue !important;
+}
+
+/********* Post Style ****************/
+.post-title {
+  margin-bottom: 1rem;
+  color: royalblue;
+}
+.post-meta-data {
+  margin-bottom: 2rem;
+}
+.post-meta-data a {
+  text-decoration: none !important;
+  color: #6c757d;
+}
+.post-meta-data a:hover {
+  color: royalblue;
+}
+.post-fimage {
+  margin-bottom: 2rem;
+}
+.post-content {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+.post-content blockquote {
+  quotes: "" "";
+  margin: 1em 1em;
+  border-left: 5px solid;
+  padding: 10px;
+  position: relative;
+  font-style: italic;
+  font-size: 105%;
+  font-weight: 500;
+}
+.post-content cite {
+  color: #9c9c9c;
+  font-style: italic;
+}
+.post-content li {
+  padding-bottom: 2px;
+}
+.post-content a {
+  text-decoration: none;
+}
+.post-content h2 {
+  border-bottom: 1px solid rgb(214, 219, 219);
+  margin: 30px 0 16px 0;
+  padding-bottom: 8px;
+  color: black;
+}
+.post-content h3 {
+  font-size: 1.5rem;
+  color: black;
+}
+.post-content h4 {
+  font-size: 1.3rem;
+  color: black;
+}
+.post-content .table {
+  border: 1px solid #6c757d;
+}
+.post-content .table td {
+  border-color: #6c757d;
+}
+.post-content .table tr:first-child {
+  background-color: #6c757d;
+  color: white;
+}
+.post-content code {
+  color: #212529;
+  background-color: #ecebeb;
+  padding: 0.125em 0.25em;
+  font-size: 95%;
+  border-radius: 5px;
+}
+.post-tag-links {
+  margin-bottom: 2rem;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+.post-navigation .nav-previous a {
+  text-decoration: none;
+}
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+.post-navigation .nav-next a {
+  text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, 575px and below  */
+.card-img-top {
+  width: 100%;
+  height: 45vw;
+  object-fit: cover;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .current-menu-item {
+    border-bottom: 4px solid royalblue;
+    margin-bottom: -12px;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 13vw;
+    object-fit: cover;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/*
+********* Plugin Customization
+*/
+.popular-posts ul {
+  list-style: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.popular-posts li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+.popular-posts a {
+  display: inline !important;
+  text-decoration: none;
+  color: black;
+}
+.popular-posts a:hover {
+  text-decoration: none;
+  color: royalblue;
+}
+.popular-posts .wpp-post-title {
+  background: none !important;
+  clear: none;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.popular-posts .wpp-thumbnail {
+  margin: 2px 10px 2px 0;
+}
+.popular-posts {
+  border: 1px solid #eee;
+  padding: 0 1rem 0 1rem;
+  margin-bottom: 1rem;
+}
+.popular-posts h1 {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+******** Return to top icon style ***********
+*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #6c757d;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: royalblue;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
