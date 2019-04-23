@@ -14,7 +14,7 @@
                                 <a href="<?php echo get_category_link($categories[0]->term_id);?>"><?php echo $categories[0]->name;?></a>
                         <?php }?>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">
+                    <li class="breadcrumb-item d-none d-lg-block d-md-block active" aria-current="page">
                         <?php the_title();?>
                     </li>
                 </ol>
